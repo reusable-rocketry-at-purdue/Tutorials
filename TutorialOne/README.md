@@ -62,9 +62,8 @@ int main()
 
     while(1)
     {
-        HAL_GPIO_TogglePin(LED_Orange_Port, LED_Orange_Pin); //Turns the LED on
+        HAL_GPIO_TogglePin(LED_Orange_Port, LED_Orange_Pin); //Turns the LED on/off
         sleep(10000000); //Waits for some time
-        HAL_GPIO_TogglePin(LED_Orange_Port, LED_Orange_Pin); //Turns the LED off
     }
 }
 
@@ -76,6 +75,7 @@ Thigs to note:
 - We will use HAL (Hardware Abstraction Layer) a lot. It is recommended that you read [this](https://www.st.com/content/ccc/resource/technical/document/user_manual/2f/71/ba/b8/75/54/47/cf/DM00105879.pdf/files/DM00105879.pdf/jcr:content/translations/en.DM00105879.pdf) document that will show you how to use HAL to its maximum potential. There is a lot to learn, but learning it will be very beneficial in the long run.
   - ***No, you don't have to read the whole thing. But do search for the topic you are working on when programming. This will allow you to learn the commands for a certain task without having to read the whole thing.***
   - With this being said, use this document for troubleshooting before requesting help. This document will answer just about any question with the `hardware abstraction layer`.
+- Pressing `CTRL + Space` will give you an autocomplete menu. This is very nice while typing in long HAL functions or long pin names.
 
 ## Important Documents
 
