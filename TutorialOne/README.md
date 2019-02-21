@@ -87,3 +87,6 @@ This is a list of documents you will need while programming with the `STM32` mic
 - [STM32F407VG Programming Manual](https://www.st.com/content/ccc/resource/technical/document/programming_manual/6c/3a/cb/e7/e4/ea/44/9b/DM00046982.pdf/files/DM00046982.pdf/jcr:content/translations/en.DM00046982.pdf) ***Recommend at least skimming***
 
 The bottom line is, don't get discouraged. This stuff isn't easy, but we're here to help. Don't think you need to read all of this, or any of it. But, these resources will help a ton when something just won't work right.
+
+## Testing the Code
+
