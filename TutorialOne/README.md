@@ -90,3 +90,4 @@ The bottom line is, don't get discouraged. This stuff isn't easy, but we're here
 
 ## Testing the Code
 
+Testing the code you wrote is done using the debugger. After writing the code that you think should work, plug the discovery board into your computer. Next, build the project by right clicking on the main folder and selecting build. After this, select `Debug -> Debug as Ac6 Application`. Use the buttons at the top of the screen to step through/run the code.
