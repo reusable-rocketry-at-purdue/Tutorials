@@ -62,7 +62,7 @@ int main()
 
     while(1)
     {
-        HAL_GPIO_TogglePin(LED_Orange_Port, LED_Orange_Pin); //Turns the LED on/off
+        HAL_GPIO_TogglePin(LED_Orange_GPIO_Port, LED_Orange_Pin); //Turns the LED on/off
         sleep(10000000); //Waits for some time
     }
 }
