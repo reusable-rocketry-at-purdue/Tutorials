@@ -19,7 +19,7 @@ Creating a new project is simple if you know the correct information. To begin, 
 - Click `File -> New Project`
 - When the part search screen shows up, search for the `STM32F407VG`. It should say `STM32F4DISCOVERY` in the `Board` section.
 - Click `Project Manager`. Select a project name and location.
-- Set the `Toolchain / IDE` to be `SW4STM32` and make sure `Generate Under Root` is selected.
+  - Set the `Toolchain / IDE` to be `SW4STM32` and make sure `Generate Under Root` is selected.
 - Click `Pinout & Configuration`. This is where you can set the individual pins to their desired input/output types.
   - Left clicking a pin gives all the possible pin types. Selecting a pin type will automatically set it to that type without any code.
   - Right clicking a pin allows the user to assign the pin a label. A label is the name that the user will use to reference the pin in the code.
